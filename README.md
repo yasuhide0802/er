@@ -1,12 +1,12 @@
-#browserSwipe.js
+# browserSwipe.js
 
 This is a simple tool to allow for trackpad swipe events when you have disabled scrolling on your site.
 
-###Demo:
+### Demo:
 
 [Check it out in use here](http://thekenwheeler.herokuapp.com)
 
-###How to disabled scrolling:
+### How to disabled scrolling:
 
     html, body {
       height: 100%;
@@ -15,7 +15,7 @@ This is a simple tool to allow for trackpad swipe events when you have disabled 
 
 Rather than linear scrolling, this listens for a mousewheel event, and treats scrolling up or down like a swipe event on a mobile device.
 
-###How to use:
+### How to use:
 
     $.browserSwipe({
       up: function({
@@ -26,7 +26,7 @@ Rather than linear scrolling, this listens for a mousewheel event, and treats sc
       })
     });
 
-###Example:
+### Example:
 
     $.browserSwipe({
       up: function(){
